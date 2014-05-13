@@ -1,0 +1,1392 @@
+KIDS Distribution saved on Oct 15, 2012@15:22:05
+DSIWA CPRS SEARCH TOOL 1.0
+**KIDS**:DSIWA CPRS SEARCH TOOL 1.0^
+
+**INSTALL NAME**
+DSIWA CPRS SEARCH TOOL 1.0
+"BLD",7942,0)
+DSIWA CPRS SEARCH TOOL 1.0^^0^3121015^n
+"BLD",7942,1,0)
+^^3^3^3121015^
+"BLD",7942,1,1,0)
+This is a convenience build for the DSS CPRS people.
+"BLD",7942,1,2,0)
+ 
+"BLD",7942,1,3,0)
+T4 - RPC DSIWA XPAR DEL added to menu context DSIWA PATIENT RECORD SEARCH.
+"BLD",7942,4,0)
+^9.64PA^^
+"BLD",7942,6.3)
+9
+"BLD",7942,"KRN",0)
+^9.67PA^779.2^20
+"BLD",7942,"KRN",.4,0)
+.4
+"BLD",7942,"KRN",.4,"NM",0)
+^9.68A^^
+"BLD",7942,"KRN",.401,0)
+.401
+"BLD",7942,"KRN",.402,0)
+.402
+"BLD",7942,"KRN",.403,0)
+.403
+"BLD",7942,"KRN",.5,0)
+.5
+"BLD",7942,"KRN",.84,0)
+.84
+"BLD",7942,"KRN",3.6,0)
+3.6
+"BLD",7942,"KRN",3.8,0)
+3.8
+"BLD",7942,"KRN",9.2,0)
+9.2
+"BLD",7942,"KRN",9.8,0)
+9.8
+"BLD",7942,"KRN",9.8,"NM",0)
+^9.68A^4^4
+"BLD",7942,"KRN",9.8,"NM",1,0)
+DSIWAXPR^^0^B1093762
+"BLD",7942,"KRN",9.8,"NM",2,0)
+DSIWAXPR0^^0^B39645838
+"BLD",7942,"KRN",9.8,"NM",3,0)
+DSIWAXPR1^^0^B14478970
+"BLD",7942,"KRN",9.8,"NM",4,0)
+DSIWAXPR2^^0^B2110912
+"BLD",7942,"KRN",9.8,"NM","B","DSIWAXPR",1)
+
+"BLD",7942,"KRN",9.8,"NM","B","DSIWAXPR0",2)
+
+"BLD",7942,"KRN",9.8,"NM","B","DSIWAXPR1",3)
+
+"BLD",7942,"KRN",9.8,"NM","B","DSIWAXPR2",4)
+
+"BLD",7942,"KRN",19,0)
+19
+"BLD",7942,"KRN",19,"NM",0)
+^9.68A^1^1
+"BLD",7942,"KRN",19,"NM",1,0)
+DSIWA PATIENT RECORD SEARCH^^0
+"BLD",7942,"KRN",19,"NM","B","DSIWA PATIENT RECORD SEARCH",1)
+
+"BLD",7942,"KRN",19.1,0)
+19.1
+"BLD",7942,"KRN",101,0)
+101
+"BLD",7942,"KRN",409.61,0)
+409.61
+"BLD",7942,"KRN",771,0)
+771
+"BLD",7942,"KRN",779.2,0)
+779.2
+"BLD",7942,"KRN",870,0)
+870
+"BLD",7942,"KRN",8989.51,0)
+8989.51
+"BLD",7942,"KRN",8989.51,"NM",0)
+^9.68A^2^2
+"BLD",7942,"KRN",8989.51,"NM",1,0)
+DSIWA SEARCH TOOL TERMS^^0
+"BLD",7942,"KRN",8989.51,"NM",2,0)
+DSIWA SEARCH TOOL REPORTS^^0
+"BLD",7942,"KRN",8989.51,"NM","B","DSIWA SEARCH TOOL REPORTS",2)
+
+"BLD",7942,"KRN",8989.51,"NM","B","DSIWA SEARCH TOOL TERMS",1)
+
+"BLD",7942,"KRN",8989.52,0)
+8989.52
+"BLD",7942,"KRN",8994,0)
+8994
+"BLD",7942,"KRN",8994,"NM",0)
+^9.68A^26^6
+"BLD",7942,"KRN",8994,"NM",21,0)
+DSIWA XPAR ADD WP^^0
+"BLD",7942,"KRN",8994,"NM",22,0)
+DSIWA XPAR DEL^^0
+"BLD",7942,"KRN",8994,"NM",23,0)
+DSIWA XPAR DEL ALL^^0
+"BLD",7942,"KRN",8994,"NM",24,0)
+DSIWA XPAR GET ALL FOR ENT^^0
+"BLD",7942,"KRN",8994,"NM",25,0)
+DSIWA XPAR GET WP^^0
+"BLD",7942,"KRN",8994,"NM",26,0)
+DSIWA XPAR GET VALUE^^0
+"BLD",7942,"KRN",8994,"NM","B","DSIWA XPAR ADD WP",21)
+
+"BLD",7942,"KRN",8994,"NM","B","DSIWA XPAR DEL",22)
+
+"BLD",7942,"KRN",8994,"NM","B","DSIWA XPAR DEL ALL",23)
+
+"BLD",7942,"KRN",8994,"NM","B","DSIWA XPAR GET ALL FOR ENT",24)
+
+"BLD",7942,"KRN",8994,"NM","B","DSIWA XPAR GET VALUE",26)
+
+"BLD",7942,"KRN",8994,"NM","B","DSIWA XPAR GET WP",25)
+
+"BLD",7942,"KRN","B",.4,.4)
+
+"BLD",7942,"KRN","B",.401,.401)
+
+"BLD",7942,"KRN","B",.402,.402)
+
+"BLD",7942,"KRN","B",.403,.403)
+
+"BLD",7942,"KRN","B",.5,.5)
+
+"BLD",7942,"KRN","B",.84,.84)
+
+"BLD",7942,"KRN","B",3.6,3.6)
+
+"BLD",7942,"KRN","B",3.8,3.8)
+
+"BLD",7942,"KRN","B",9.2,9.2)
+
+"BLD",7942,"KRN","B",9.8,9.8)
+
+"BLD",7942,"KRN","B",19,19)
+
+"BLD",7942,"KRN","B",19.1,19.1)
+
+"BLD",7942,"KRN","B",101,101)
+
+"BLD",7942,"KRN","B",409.61,409.61)
+
+"BLD",7942,"KRN","B",771,771)
+
+"BLD",7942,"KRN","B",779.2,779.2)
+
+"BLD",7942,"KRN","B",870,870)
+
+"BLD",7942,"KRN","B",8989.51,8989.51)
+
+"BLD",7942,"KRN","B",8989.52,8989.52)
+
+"BLD",7942,"KRN","B",8994,8994)
+
+"BLD",7942,"QDEF")
+^^^^NO^^^^YES^^NO
+"BLD",7942,"QUES",0)
+^9.62^^
+"BLD",7942,"REQB",0)
+^9.611^^
+"KRN",19,11202,-1)
+0^1
+"KRN",19,11202,0)
+DSIWA PATIENT RECORD SEARCH^DSS CPRS RECORD SEARCH BROKER MENU^^B^^^^^^^^
+"KRN",19,11202,99.1)
+62741,74419
+"KRN",19,11202,"RPC",0)
+^19.05P^21^21
+"KRN",19,11202,"RPC",1,0)
+DSIWA XPAR ADD WP
+"KRN",19,11202,"RPC",2,0)
+DSIWA XPAR DEL
+"KRN",19,11202,"RPC",3,0)
+DSIWA XPAR DEL ALL
+"KRN",19,11202,"RPC",4,0)
+DSIWA XPAR GET ALL FOR ENT
+"KRN",19,11202,"RPC",5,0)
+DSIWA XPAR GET WP
+"KRN",19,11202,"RPC",6,0)
+TIU DOCUMENTS BY CONTEXT
+"KRN",19,11202,"RPC",7,0)
+TIU GET RECORD TEXT
+"KRN",19,11202,"RPC",8,0)
+ORQQPL PROBLEM LIST
+"KRN",19,11202,"RPC",9,0)
+ORQQPL DETAIL
+"KRN",19,11202,"RPC",10,0)
+ORQQCN LIST
+"KRN",19,11202,"RPC",11,0)
+ORQQCN DETAIL
+"KRN",19,11202,"RPC",12,0)
+ORQQCN MED RESULTS
+"KRN",19,11202,"RPC",13,0)
+ORWPT SELECT
+"KRN",19,11202,"RPC",14,0)
+ORWU USERINFO
+"KRN",19,11202,"RPC",15,0)
+ORWRP REPORT TEXT
+"KRN",19,11202,"RPC",16,0)
+ORQOR LIST
+"KRN",19,11202,"RPC",17,0)
+ORQOR DETAIL
+"KRN",19,11202,"RPC",18,0)
+ORWU DT
+"KRN",19,11202,"RPC",19,0)
+ORWRP COLUMN HEADERS
+"KRN",19,11202,"RPC",20,0)
+ORWRP3 EXPAND COLUMNS
+"KRN",19,11202,"RPC",21,0)
+DSIWA XPAR GET VALUE
+"KRN",19,11202,"U")
+DSS CPRS RECORD SEARCH BROKER 
+"KRN",8989.51,632,-1)
+0^1
+"KRN",8989.51,632,0)
+DSIWA SEARCH TOOL TERMS^Search Criteria^1^Search Name^Search Terms^0
+"KRN",8989.51,632,1)
+W
+"KRN",8989.51,632,6)
+F
+"KRN",8989.51,632,30,0)
+^8989.513I^1^1
+"KRN",8989.51,632,30,1,0)
+1^200
+"KRN",8989.51,633,-1)
+0^2
+"KRN",8989.51,633,0)
+DSIWA SEARCH TOOL REPORTS^User specified reports to search^1^Report Name^Value^0
+"KRN",8989.51,633,1)
+W
+"KRN",8989.51,633,6)
+F
+"KRN",8989.51,633,30,0)
+^8989.513I^1^1
+"KRN",8989.51,633,30,1,0)
+1^200
+"KRN",8994,2671,-1)
+0^22
+"KRN",8994,2671,0)
+DSIWA XPAR DEL^DEL^DSIWAXPR^1^A
+"KRN",8994,2671,1,0)
+^^1^1^3030422^
+"KRN",8994,2671,1,1,0)
+Delete an existing parameter for an entity for a specific instance
+"KRN",8994,2671,2,0)
+^8994.02A^1^1
+"KRN",8994,2671,2,1,0)
+DATA^1^250^1^1
+"KRN",8994,2671,2,1,1,0)
+^^5^5^3030422^
+"KRN",8994,2671,2,1,1,1,0)
+DATA - required - p1~p2~p3~p4
+"KRN",8994,2671,2,1,1,2,0)
+ p1 := optional - entity(s) - if not passed, set to "USR" for
+"KRN",8994,2671,2,1,1,3,0)
+                  current user
+"KRN",8994,2671,2,1,1,4,0)
+ p2 := required - parameter name
+"KRN",8994,2671,2,1,1,5,0)
+ p3 := optional - instance
+"KRN",8994,2671,2,"B","DATA",1)
+
+"KRN",8994,2671,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2671,3,0)
+^8994.03^2^2^3030422^^^^
+"KRN",8994,2671,3,1,0)
+If the parameter is successfully deleted, return 1
+"KRN",8994,2671,3,2,0)
+Else return -1^error message
+"KRN",8994,2672,-1)
+0^23
+"KRN",8994,2672,0)
+DSIWA XPAR DEL ALL^DELALL^DSIWAXPR^1^A
+"KRN",8994,2672,1,0)
+^8994.01^2^2^3030422^^^^
+"KRN",8994,2672,1,1,0)
+This is used to delete the value for all instances of a parameter for a 
+"KRN",8994,2672,1,2,0)
+given entity
+"KRN",8994,2672,2,0)
+^8994.02A^1^1
+"KRN",8994,2672,2,1,0)
+DATA^1^250^1^1
+"KRN",8994,2672,2,1,1,0)
+^^4^4^3030422^
+"KRN",8994,2672,2,1,1,1,0)
+DATA - required - p1~p2
+"KRN",8994,2672,2,1,1,2,0)
+ p1 := optional - entity(s) - if not passed, set to "USR" for
+"KRN",8994,2672,2,1,1,3,0)
+                  current user
+"KRN",8994,2672,2,1,1,4,0)
+ p2 := required - parameter name
+"KRN",8994,2672,2,"B","DATA",1)
+
+"KRN",8994,2672,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2672,3,0)
+^8994.03^2^2^3030422^^^^
+"KRN",8994,2672,3,1,0)
+If the parameter(s) are successfully deleted, return 1
+"KRN",8994,2672,3,2,0)
+Else return -1^error message
+"KRN",8994,2673,-1)
+0^24
+"KRN",8994,2673,0)
+DSIWA XPAR GET ALL FOR ENT^GET^DSIWAXPR^2^A^^^
+"KRN",8994,2673,1,0)
+^8994.01^1^1^3030422^^^^
+"KRN",8994,2673,1,1,0)
+This will get all instances of a parameter for an entity
+"KRN",8994,2673,2,0)
+^8994.02A^1^1
+"KRN",8994,2673,2,1,0)
+DATA^1^250^1^1
+"KRN",8994,2673,2,1,1,0)
+^^12^12^3030422^
+"KRN",8994,2673,2,1,1,1,0)
+DATA - required - p1~p2~~~~p6
+"KRN",8994,2673,2,1,1,2,0)
+ p1 := optional - entity(s) - if not passed, set to "USR" for
+"KRN",8994,2673,2,1,1,3,0)
+                  current user
+"KRN",8994,2673,2,1,1,4,0)
+ p2 := required - parameter name
+"KRN",8994,2673,2,1,1,5,0)
+ p6 := optional - format code determines return values
+"KRN",8994,2673,2,1,1,6,0)
+       Q - internal instance, internal value
+"KRN",8994,2673,2,1,1,7,0)
+       E - external instance, external value
+"KRN",8994,2673,2,1,1,8,0)
+       N - external instance, internal value
+"KRN",8994,2673,2,1,1,9,0)
+       B - internal & external instances and values
+"KRN",8994,2673,2,1,1,10,0)
+           [default value]
+"KRN",8994,2673,2,1,1,11,0)
+ 
+"KRN",8994,2673,2,1,1,12,0)
+Actually, p6 is ignored and is always set to B
+"KRN",8994,2673,2,"B","DATA",1)
+
+"KRN",8994,2673,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2673,3,0)
+^^7^7^3030422^
+"KRN",8994,2673,3,1,0)
+Return a list of values
+"KRN",8994,2673,3,2,0)
+On error return list[1] = -1^error message
+"KRN",8994,2673,3,3,0)
+Else return list[n] = p1^p2^p3^p4  where n = 1,2,3,4,5,6,...
+"KRN",8994,2673,3,4,0)
+     p1 = internal instance
+"KRN",8994,2673,3,5,0)
+     p2 = external instance
+"KRN",8994,2673,3,6,0)
+     p3 = internal value
+"KRN",8994,2673,3,7,0)
+     p4 = extenral value
+"KRN",8994,2673,3,8,0)
+ 
+"KRN",8994,2673,3,9,0)
+p1,p2,p3,p4 may be <null> depending upon the format parameter passed in 
+"KRN",8994,2673,3,10,0)
+the 6th piece of the DATA input variable.
+"KRN",8994,2674,-1)
+0^26
+"KRN",8994,2674,0)
+DSIWA XPAR GET VALUE^GET1^DSIWAXPR^1^A
+"KRN",8994,2674,1,0)
+^8994.01^1^1^3030422^^^^
+"KRN",8994,2674,1,1,0)
+This will return the value of a single entity/param/instance
+"KRN",8994,2674,2,0)
+^8994.02A^1^1
+"KRN",8994,2674,2,1,0)
+DATA^1^250^1^1
+"KRN",8994,2674,2,1,1,0)
+^^9^9^3030422^
+"KRN",8994,2674,2,1,1,1,0)
+DATA - required - p1~p2~p3~~~p6
+"KRN",8994,2674,2,1,1,2,0)
+ p1 := optional - entity - if not passed, set to "USR" for
+"KRN",8994,2674,2,1,1,3,0)
+                  current user
+"KRN",8994,2674,2,1,1,4,0)
+ p2 := required - parameter name
+"KRN",8994,2674,2,1,1,5,0)
+ p3 := optional - instance
+"KRN",8994,2674,2,1,1,6,0)
+ p6 := optional - format code determines return values
+"KRN",8994,2674,2,1,1,7,0)
+       Q - internal value - [default]
+"KRN",8994,2674,2,1,1,8,0)
+       E - external value
+"KRN",8994,2674,2,1,1,9,0)
+       B - internal^external values
+"KRN",8994,2674,2,"B","DATA",1)
+
+"KRN",8994,2674,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2674,3,0)
+^8994.03^3^3^3030422^^^^
+"KRN",8994,2674,3,1,0)
+If problem encountered getting value, return -1^error message
+"KRN",8994,2674,3,2,0)
+Else return the value in the format requested for the
+"KRN",8994,2674,3,3,0)
+entity/param/instance
+"KRN",8994,2675,-1)
+0^25
+"KRN",8994,2675,0)
+DSIWA XPAR GET WP^GETWP^DSIWAXPR^2^A
+"KRN",8994,2675,1,0)
+^^2^2^3030422^
+"KRN",8994,2675,1,1,0)
+This will return text for a word processing type parameter for an entity 
+"KRN",8994,2675,1,2,0)
+and instance.
+"KRN",8994,2675,2,0)
+^8994.02A^1^1
+"KRN",8994,2675,2,1,0)
+DATA^1^250^1^1
+"KRN",8994,2675,2,1,1,0)
+^^5^5^3030422^
+"KRN",8994,2675,2,1,1,1,0)
+DATA - required - p1~p2~p3
+"KRN",8994,2675,2,1,1,2,0)
+ p1 := optional - entity - if not passed, set to "USR" for
+"KRN",8994,2675,2,1,1,3,0)
+                  current user
+"KRN",8994,2675,2,1,1,4,0)
+ p2 := required - parameter name
+"KRN",8994,2675,2,1,1,5,0)
+ p3 := optional - instance
+"KRN",8994,2675,2,"B","DATA",1)
+
+"KRN",8994,2675,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2675,3,0)
+^^2^2^3030422^
+"KRN",8994,2675,3,1,0)
+Return the text in List[n] = text  where n=1,2,3,4,...
+"KRN",8994,2675,3,2,0)
+On error, return   List[1] = -1^error message
+"KRN",8994,2676,-1)
+0^21
+"KRN",8994,2676,0)
+DSIWA XPAR ADD WP^ADDWP^DSIWAXPR^1^A
+"KRN",8994,2676,1,0)
+^8994.01^2^2^3121010^^^^
+"KRN",8994,2676,1,1,0)
+This RPC will allow the addition of a new Word-processing type system 
+"KRN",8994,2676,1,2,0)
+parameter.
+"KRN",8994,2676,2,0)
+^8994.02A^2^2
+"KRN",8994,2676,2,1,0)
+DATA^1^250^1^1
+"KRN",8994,2676,2,1,1,0)
+^8994.021^6^6^3070116^^
+"KRN",8994,2676,2,1,1,1,0)
+DATA - required - p1~p2~p3
+"KRN",8994,2676,2,1,1,2,0)
+  p1 := optional - entity - if not passed, defaults to SYS for current 
+"KRN",8994,2676,2,1,1,3,0)
+                            user.
+"KRN",8994,2676,2,1,1,4,0)
+ 
+"KRN",8994,2676,2,1,1,5,0)
+  p2 := required - parameter name
+"KRN",8994,2676,2,1,1,6,0)
+  p3 := optional - instance (defaults to 1)
+"KRN",8994,2676,2,2,0)
+ARRAY^2^250^1^2
+"KRN",8994,2676,2,2,1,0)
+^8994.021^7^7^3121010^^
+"KRN",8994,2676,2,2,1,1,0)
+Array of text to add to the parameter where:
+"KRN",8994,2676,2,2,1,2,0)
+ 
+"KRN",8994,2676,2,2,1,3,0)
+  ARRAY(0) = 1st line of text
+"KRN",8994,2676,2,2,1,4,0)
+  ARRAY(1) = 2nd line of text
+"KRN",8994,2676,2,2,1,5,0)
+  ARRAY(n) = nth line of text
+"KRN",8994,2676,2,2,1,6,0)
+ 
+"KRN",8994,2676,2,2,1,7,0)
+ ARRAY(n)="" to store blank lines of text, such as paragraph separation.
+"KRN",8994,2676,2,"B","ARRAY",2)
+
+"KRN",8994,2676,2,"B","DATA",1)
+
+"KRN",8994,2676,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2676,2,"PARAMSEQ",2,2)
+
+"KRN",8994,2676,3,0)
+^8994.03^6^6^3121010^^
+"KRN",8994,2676,3,1,0)
+RET= Code^Description
+"KRN",8994,2676,3,2,0)
+ 
+"KRN",8994,2676,3,3,0)
+where:
+"KRN",8994,2676,3,4,0)
+ 
+"KRN",8994,2676,3,5,0)
+1^Parameter added successfully = success
+"KRN",8994,2676,3,6,0)
+-1^Error Message = indicates failure and reason for failure.
+"MBREQ")
+0
+"ORD",16,8994)
+8994;16;1;;;;;;;RPCDEL^XPDIA1
+"ORD",16,8994,0)
+REMOTE PROCEDURE
+"ORD",18,19)
+19;18;;;OPT^XPDTA;OPTF1^XPDIA;OPTE1^XPDIA;OPTF2^XPDIA;;OPTDEL^XPDIA
+"ORD",18,19,0)
+OPTION
+"ORD",20,8989.51)
+8989.51;20;;;PAR1E1^XPDTA2;PAR1F1^XPDIA3;PAR1E1^XPDIA3;PAR1F2^XPDIA3;;PAR1DEL^XPDIA3(%)
+"ORD",20,8989.51,0)
+PARAMETER DEFINITION
+"QUES","XPF1",0)
+Y
+"QUES","XPF1","??")
+^D REP^XPDH
+"QUES","XPF1","A")
+Shall I write over your |FLAG| File
+"QUES","XPF1","B")
+YES
+"QUES","XPF1","M")
+D XPF1^XPDIQ
+"QUES","XPF2",0)
+Y
+"QUES","XPF2","??")
+^D DTA^XPDH
+"QUES","XPF2","A")
+Want my data |FLAG| yours
+"QUES","XPF2","B")
+YES
+"QUES","XPF2","M")
+D XPF2^XPDIQ
+"QUES","XPI1",0)
+YO
+"QUES","XPI1","??")
+^D INHIBIT^XPDH
+"QUES","XPI1","A")
+Want KIDS to INHIBIT LOGONs during the install
+"QUES","XPI1","B")
+NO
+"QUES","XPI1","M")
+D XPI1^XPDIQ
+"QUES","XPM1",0)
+PO^VA(200,:EM
+"QUES","XPM1","??")
+^D MG^XPDH
+"QUES","XPM1","A")
+Enter the Coordinator for Mail Group '|FLAG|'
+"QUES","XPM1","B")
+
+"QUES","XPM1","M")
+D XPM1^XPDIQ
+"QUES","XPO1",0)
+Y
+"QUES","XPO1","??")
+^D MENU^XPDH
+"QUES","XPO1","A")
+Want KIDS to Rebuild Menu Trees Upon Completion of Install
+"QUES","XPO1","B")
+YES
+"QUES","XPO1","M")
+D XPO1^XPDIQ
+"QUES","XPZ1",0)
+Y
+"QUES","XPZ1","??")
+^D OPT^XPDH
+"QUES","XPZ1","A")
+Want to DISABLE Scheduled Options, Menu Options, and Protocols
+"QUES","XPZ1","B")
+NO
+"QUES","XPZ1","M")
+D XPZ1^XPDIQ
+"QUES","XPZ2",0)
+Y
+"QUES","XPZ2","??")
+^D RTN^XPDH
+"QUES","XPZ2","A")
+Want to MOVE routines to other CPUs
+"QUES","XPZ2","B")
+NO
+"QUES","XPZ2","M")
+D XPZ2^XPDIQ
+"RTN")
+4
+"RTN","DSIWAXPR")
+0^1^B1093762
+"RTN","DSIWAXPR",1,0)
+DSIWAXPR ;DSS/SGM - RPCs/APIs FOR PARAMETERS ;10/10/2012 07:59
+"RTN","DSIWAXPR",2,0)
+ ;;1.5;VA CERTIFIED COMPONENTS - DSSI;;Jul 09, 2008;Build 9
+"RTN","DSIWAXPR",3,0)
+ ;Copyright 1995-2012, Document Storage Systems, Inc., All Rights Reserved
+"RTN","DSIWAXPR",4,0)
+ ;
+"RTN","DSIWAXPR",5,0)
+ ;  Copyright 2012 Document Storage Systems, Inc. 
+"RTN","DSIWAXPR",6,0)
+ ;
+"RTN","DSIWAXPR",7,0)
+ ;  Licensed under the Apache License, Version 2.0 (the "License");
+"RTN","DSIWAXPR",8,0)
+ ;  you may not use this file except in compliance with the License.
+"RTN","DSIWAXPR",9,0)
+ ;  You may obtain a copy of the License at
+"RTN","DSIWAXPR",10,0)
+ ;
+"RTN","DSIWAXPR",11,0)
+ ;  http://www.apache.org/licenses/LICENSE-2.0
+"RTN","DSIWAXPR",12,0)
+ ;
+"RTN","DSIWAXPR",13,0)
+ ;  Unless required by applicable law or agreed to in writing, software
+"RTN","DSIWAXPR",14,0)
+ ;  distributed under the License is distributed on an "AS IS" BASIS,
+"RTN","DSIWAXPR",15,0)
+ ;  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+"RTN","DSIWAXPR",16,0)
+ ;  See the License for the specific language governing permissions and
+"RTN","DSIWAXPR",17,0)
+ ;  limitations under the License.
+"RTN","DSIWAXPR",18,0)
+ ;
+"RTN","DSIWAXPR",19,0)
+ ;
+"RTN","DSIWAXPR",20,0)
+ ;DBIA#: 10086 - D HOME^%ZIS - supported
+"RTN","DSIWAXPR",21,0)
+ ;
+"RTN","DSIWAXPR",22,0)
+ ;For documentation of the entry points and input parameters: D ^DSIWAXPR0
+"RTN","DSIWAXPR",23,0)
+ADDWP(RET,DATA,DSIWALT) ;  RPC:  DSIWA XPAR ADD WP
+"RTN","DSIWAXPR",24,0)
+ ;  Add an instance of a word-processing field inside a parameter.
+"RTN","DSIWAXPR",25,0)
+ ;  Returns: RET(0) = text or on error return RET(0) = -1^error message
+"RTN","DSIWAXPR",26,0)
+ ;
+"RTN","DSIWAXPR",27,0)
+ ; convert DSIWACLT
+"RTN","DSIWAXPR",28,0)
+ ; 
+"RTN","DSIWAXPR",29,0)
+ N DSIWA,I
+"RTN","DSIWAXPR",30,0)
+ F I=1:1 Q:'$D(DSIWALT(I))  S DSIWA(I,0)=DSIWALT(I)
+"RTN","DSIWAXPR",31,0)
+ K DSIWALT M DSIWALT=DSIWA K DSIWA
+"RTN","DSIWAXPR",32,0)
+ G ADDWP^DSIWAXPR2
+"RTN","DSIWAXPR",33,0)
+ ;
+"RTN","DSIWAXPR",34,0)
+DEL(RET,DATA,FUN) ;  RPC: DSIWA XPAR DEL
+"RTN","DSIWAXPR",35,0)
+ ;  delete an existing parameter value
+"RTN","DSIWAXPR",36,0)
+ ;  Exception: value is optional, but if passed must be equal to @
+"RTN","DSIWAXPR",37,0)
+ G DEL^DSIWAXPR1
+"RTN","DSIWAXPR",38,0)
+ ;
+"RTN","DSIWAXPR",39,0)
+DELALL(RET,DATA,FUN) ;  RPC: DSIWA XPAR DEL ALL
+"RTN","DSIWAXPR",40,0)
+ ;  this will delete all instances for a given entity/parameter
+"RTN","DSIWAXPR",41,0)
+ ;  Exception: instance and value are not required for this call
+"RTN","DSIWAXPR",42,0)
+ G DELALL^DSIWAXPR1
+"RTN","DSIWAXPR",43,0)
+ ;
+"RTN","DSIWAXPR",44,0)
+GET(RET,DATA) ;  RPC: DSIWA XPAR GET ALL FOR ENT
+"RTN","DSIWAXPR",45,0)
+ ;  this will return values for all instances of an entity/param
+"RTN","DSIWAXPR",46,0)
+ ;  Exception: only needed elements: entity, parameter, format
+"RTN","DSIWAXPR",47,0)
+ ;  ARR(6) = input value ignored, always use 'B'
+"RTN","DSIWAXPR",48,0)
+ ;           B - return list(#,"N")=iI^eI
+"RTN","DSIWAXPR",49,0)
+ ;                      list(#,"V")=iV^eV
+"RTN","DSIWAXPR",50,0)
+ ;  Return RET(#) = iI^eI^iV^eV
+"RTN","DSIWAXPR",51,0)
+ ;     On error, return RET(1)=-1^error message
+"RTN","DSIWAXPR",52,0)
+ G GET^DSIWAXPR1
+"RTN","DSIWAXPR",53,0)
+ ;
+"RTN","DSIWAXPR",54,0)
+GET1(RET,DATA,FUN) ;  RPC: DSIWA XPAR GET VALUE
+"RTN","DSIWAXPR",55,0)
+ ;  this will return the value of a single entity/param/instance combo
+"RTN","DSIWAXPR",56,0)
+ ;  Format codes [ARR(6)] = [Q]uick    - return iV
+"RTN","DSIWAXPR",57,0)
+ ;                          [E]xternal - return eV
+"RTN","DSIWAXPR",58,0)
+ ;                          [B]oth     - return iV^eV
+"RTN","DSIWAXPR",59,0)
+ G GET1^DSIWAXPR1
+"RTN","DSIWAXPR",60,0)
+ ;
+"RTN","DSIWAXPR",61,0)
+GETWP(RET,DATA) ;  RPC: DSIWA XPAR GET WP
+"RTN","DSIWAXPR",62,0)
+ ;  return a parameter's value which is defined as word-processing
+"RTN","DSIWAXPR",63,0)
+ ;  Returns: RET(#) = text or on error return RET(1) = -1^error message
+"RTN","DSIWAXPR",64,0)
+ G GETWP^DSIWAXPR1
+"RTN","DSIWAXPR",65,0)
+ ;
+"RTN","DSIWAXPR0")
+0^2^B39645838
+"RTN","DSIWAXPR0",1,0)
+DSIWAXPR0 ;DSS/SGM - RPCs/APIs FOR PARAMETERS ;10/10/2012 07:59
+"RTN","DSIWAXPR0",2,0)
+ ;;1.5;VA CERTIFIED COMPONENTS - DSSI;;Jul 09, 2008;Build 9
+"RTN","DSIWAXPR0",3,0)
+ ;Copyright 1995-2012, Document Storage Systems, Inc., All Rights Reserved
+"RTN","DSIWAXPR0",4,0)
+ ;
+"RTN","DSIWAXPR0",5,0)
+ ;  Copyright 2012 Document Storage Systems, Inc. 
+"RTN","DSIWAXPR0",6,0)
+ ;
+"RTN","DSIWAXPR0",7,0)
+ ;  Licensed under the Apache License, Version 2.0 (the "License");
+"RTN","DSIWAXPR0",8,0)
+ ;  you may not use this file except in compliance with the License.
+"RTN","DSIWAXPR0",9,0)
+ ;  You may obtain a copy of the License at
+"RTN","DSIWAXPR0",10,0)
+ ;
+"RTN","DSIWAXPR0",11,0)
+ ;  http://www.apache.org/licenses/LICENSE-2.0
+"RTN","DSIWAXPR0",12,0)
+ ;
+"RTN","DSIWAXPR0",13,0)
+ ;  Unless required by applicable law or agreed to in writing, software
+"RTN","DSIWAXPR0",14,0)
+ ;  distributed under the License is distributed on an "AS IS" BASIS,
+"RTN","DSIWAXPR0",15,0)
+ ;  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+"RTN","DSIWAXPR0",16,0)
+ ;  See the License for the specific language governing permissions and
+"RTN","DSIWAXPR0",17,0)
+ ;  limitations under the License.
+"RTN","DSIWAXPR0",18,0)
+ ;
+"RTN","DSIWAXPR0",19,0)
+ ;
+"RTN","DSIWAXPR0",20,0)
+ N I,X D HOME^%ZIS W @IOF
+"RTN","DSIWAXPR0",21,0)
+ F I=1:1 S X=$T(T+I) Q:X=""  W !,"   "_$P(X,";",3,99)
+"RTN","DSIWAXPR0",22,0)
+ Q
+"RTN","DSIWAXPR0",23,0)
+ ;
+"RTN","DSIWAXPR0",24,0)
+T ;
+"RTN","DSIWAXPR0",25,0)
+ ;;            COMMON TERMINOLOGY FOR ALL RPC ENTRY POINTS
+"RTN","DSIWAXPR0",26,0)
+ ;;=====================================================================
+"RTN","DSIWAXPR0",27,0)
+ ;;
+"RTN","DSIWAXPR0",28,0)
+ ;;There are GET type APIs and EDIT type APIS
+"RTN","DSIWAXPR0",29,0)
+ ;;  GET type - these only retrieve data and do not change any values
+"RTN","DSIWAXPR0",30,0)
+ ;; EDIT type - these may add/edit/delete values
+"RTN","DSIWAXPR0",31,0)
+ ;;
+"RTN","DSIWAXPR0",32,0)
+ ;;DESCRIPTION OF XPAR PARAMETERS
+"RTN","DSIWAXPR0",33,0)
+ ;;------------------------------
+"RTN","DSIWAXPR0",34,0)
+ ;;
+"RTN","DSIWAXPR0",35,0)
+ ;;Note: if an input parameter is listed as optional or required, then
+"RTN","DSIWAXPR0",36,0)
+ ;;      you need to look at the individual line tags to see which is it
+"RTN","DSIWAXPR0",37,0)
+ ;;
+"RTN","DSIWAXPR0",38,0)
+ ;;PARAMETER NAME - required
+"RTN","DSIWAXPR0",39,0)
+ ;; .01 field external value or IEN from file 8989.51 always required
+"RTN","DSIWAXPR0",40,0)
+ ;;---------------------------------------------------------------------
+"RTN","DSIWAXPR0",41,0)
+ ;;
+"RTN","DSIWAXPR0",42,0)
+ ;;ENTITY - optional or required
+"RTN","DSIWAXPR0",43,0)
+ ;;1. A person, place, or thing with has a configurable attribute.
+"RTN","DSIWAXPR0",44,0)
+ ;;
+"RTN","DSIWAXPR0",45,0)
+ ;;2. Only allowable entries are from 8989.518
+"RTN","DSIWAXPR0",46,0)
+ ;;
+"RTN","DSIWAXPR0",47,0)
+ ;;3. Default for GETs is ALL - default for EDITS is USR
+"RTN","DSIWAXPR0",48,0)
+ ;;
+"RTN","DSIWAXPR0",49,0)
+ ;;4. Allowable format for entity:
+"RTN","DSIWAXPR0",50,0)
+ ;;   a. Internal Fileman variable pointer syntax [nnn;;GLO(123,]
+"RTN","DSIWAXPR0",51,0)
+ ;;   b. 3 character abbreviations that can be used
+"RTN","DSIWAXPR0",52,0)
+ ;;      Defaults for some 3 char entities
+"RTN","DSIWAXPR0",53,0)
+ ;;           USR => DUZ
+"RTN","DSIWAXPR0",54,0)
+ ;;           DIV => DUZ(2)
+"RTN","DSIWAXPR0",55,0)
+ ;;           SYS => system domain
+"RTN","DSIWAXPR0",56,0)
+ ;;           PKG => package derived from the parameter name
+"RTN","DSIWAXPR0",57,0)
+ ;;
+"RTN","DSIWAXPR0",58,0)
+ ;;      2) Syntax => prefix.entryname   where entryname can be
+"RTN","DSIWAXPR0",59,0)
+ ;;         a) the external name for that entity
+"RTN","DSIWAXPR0",60,0)
+ ;;         b) "`"_<the internal entry number> for that entity
+"RTN","DSIWAXPR0",61,0)
+ ;;
+"RTN","DSIWAXPR0",62,0)
+ ;;      3) A list of entities delimited by '^'.  This list is processed
+"RTN","DSIWAXPR0",63,0)
+ ;;         in left to right order with the first existing instance
+"RTN","DSIWAXPR0",64,0)
+ ;;         being returned
+"RTN","DSIWAXPR0",65,0)
+ ;;
+"RTN","DSIWAXPR0",66,0)
+ ;;      4) 'ALL' - This uses the entity precedence defined by the
+"RTN","DSIWAXPR0",67,0)
+ ;;         PARAMETER DEFINITION file.
+"RTN","DSIWAXPR0",68,0)
+ ;;
+"RTN","DSIWAXPR0",69,0)
+ ;;5. See XPAR documentation for detailed explanation
+"RTN","DSIWAXPR0",70,0)
+ ;;
+"RTN","DSIWAXPR0",71,0)
+ ;;6. EXAMPLES:  USR.`1234  LOC.PULMONARY CLINIC  34;;DIC(4,  LOC.`57
+"RTN","DSIWAXPR0",72,0)
+ ;;---------------------------------------------------------------------
+"RTN","DSIWAXPR0",73,0)
+ ;;
+"RTN","DSIWAXPR0",74,0)
+ ;;INSTANCE - optional or required
+"RTN","DSIWAXPR0",75,0)
+ ;;1. An unique value assigned to entity/param combo
+"RTN","DSIWAXPR0",76,0)
+ ;;
+"RTN","DSIWAXPR0",77,0)
+ ;;2. XPAR ensures uniqueness in PARAMETER file (#8989.5) for an
+"RTN","DSIWAXPR0",78,0)
+ ;;   entity/param/instance combination only (does not include value)
+"RTN","DSIWAXPR0",79,0)
+ ;;
+"RTN","DSIWAXPR0",80,0)
+ ;;3. Optional for all single value parameters - default to 1
+"RTN","DSIWAXPR0",81,0)
+ ;;
+"RTN","DSIWAXPR0",82,0)
+ ;;4. Optional for ADD to a multiple instance parameter.  In this case,
+"RTN","DSIWAXPR0",83,0)
+ ;;   it is assumed that INSTANCE is numeric and will calculate the next
+"RTN","DSIWAXPR0",84,0)
+ ;;   INSTANCE value
+"RTN","DSIWAXPR0",85,0)
+ ;;---------------------------------------------------------------------
+"RTN","DSIWAXPR0",86,0)
+ ;;
+"RTN","DSIWAXPR0",87,0)
+ ;;VALUE
+"RTN","DSIWAXPR0",88,0)
+ ;;  A value for a specific entity/parameter/instance combination may or
+"RTN","DSIWAXPR0",89,0)
+ ;;  may not be required - see individual line tags
+"RTN","DSIWAXPR0",90,0)
+ ;;---------------------------------------------------------------------
+"RTN","DSIWAXPR0",91,0)
+ ;;
+"RTN","DSIWAXPR0",92,0)
+ ;;                     FORMAT OF INPUT PARAMETERS
+"RTN","DSIWAXPR0",93,0)
+ ;;=====================================================================
+"RTN","DSIWAXPR0",94,0)
+ ;;DATA - required - p1~p2~p3~p4~p5~p6
+"RTN","DSIWAXPR0",95,0)
+ ;; p1 - opt     - Entity
+"RTN","DSIWAXPR0",96,0)
+ ;; p2 - req     - Parameter
+"RTN","DSIWAXPR0",97,0)
+ ;; p3 - opt/req - Instance
+"RTN","DSIWAXPR0",98,0)
+ ;; p4 - opt/req - Value
+"RTN","DSIWAXPR0",99,0)
+ ;;                1. required for most calls
+"RTN","DSIWAXPR0",100,0)
+ ;;                2. optional for get type calls
+"RTN","DSIWAXPR0",101,0)
+ ;;                3. not used in delete call
+"RTN","DSIWAXPR0",102,0)
+ ;; p5 - opt/req - New Instance Value - only required for REPL call
+"RTN","DSIWAXPR0",103,0)
+ ;; p6 - opt     - GET1 format
+"RTN","DSIWAXPR0",104,0)
+ ;;                1. Only used in GET1 call
+"RTN","DSIWAXPR0",105,0)
+ ;;                2. Default to Q
+"RTN","DSIWAXPR0",106,0)
+ ;;                3. For GET and GETALL - ignore, always default to B
+"RTN","DSIWAXPR0",107,0)
+ ;;
+"RTN","DSIWAXPR0",108,0)
+ ;;FUN - opt     - default 0
+"RTN","DSIWAXPR0",109,0)
+ ;;                if +$G(FUN) then external function call vs RPC call
+"RTN","DSIWAXPR0",110,0)
+ ;;
+"RTN","DSIWAXPR0",111,0)
+ ;;Return value:
+"RTN","DSIWAXPR0",112,0)
+ ;;  RET - if successful, return 1
+"RTN","DSIWAXPR0",113,0)
+ ;;        if unsuccessful return -1^error message
+"RTN","DSIWAXPR0",114,0)
+ ;;        Some XPAR calls return 0 if the there were no problems but
+"RTN","DSIWAXPR0",115,0)
+ ;;        the lookup failed.
+"RTN","DSIWAXPR0",116,0)
+ ;;
+"RTN","DSIWAXPR0",117,0)
+ ;;                       DOCUMENTATION NOTES
+"RTN","DSIWAXPR0",118,0)
+ ;;=====================================================================
+"RTN","DSIWAXPR0",119,0)
+ ;;For GET type calls
+"RTN","DSIWAXPR0",120,0)
+ ;;---------------------------------------------------------------------
+"RTN","DSIWAXPR0",121,0)
+ ;; iI := internal instance     eI := external instance
+"RTN","DSIWAXPR0",122,0)
+ ;; iV := internal value        eV := external value
+"RTN","DSIWAXPR0",123,0)
+ ;;
+"RTN","DSIWAXPR0",124,0)
+ ;;Adding a new PARAMETER
+"RTN","DSIWAXPR0",125,0)
+ ;;---------------------------------------------------------------------
+"RTN","DSIWAXPR0",126,0)
+ ;;Only uniqueness of an entity/param/instance combination is ensured.
+"RTN","DSIWAXPR0",127,0)
+ ;;For multiple instance parameters, you could have several
+"RTN","DSIWAXPR0",128,0)
+ ;;entity/param/instance combos with the same value.  This may or may
+"RTN","DSIWAXPR0",129,0)
+ ;;not be acceptable for your particular usage.
+"RTN","DSIWAXPR0",130,0)
+ ;;
+"RTN","DSIWAXPR0",131,0)
+ ;;PASSING INTERNAL VALUES
+"RTN","DSIWAXPR0",132,0)
+ ;;---------------------------------------------------------------------
+"RTN","DSIWAXPR0",133,0)
+ ;;When setting up the DATA input parameter you must append the "`"
+"RTN","DSIWAXPR0",134,0)
+ ;;character to p1,p3,p4,p5 if you are passing an IEN.  This is only
+"RTN","DSIWAXPR0",135,0)
+ ;;relevant if that component is defined to be a type that has an
+"RTN","DSIWAXPR0",136,0)
+ ;;internal value which is different than the external value, e.g.,
+"RTN","DSIWAXPR0",137,0)
+ ;;Fileman pointer, set of codes, etc.
+"RTN","DSIWAXPR1")
+0^3^B14478970
+"RTN","DSIWAXPR1",1,0)
+DSIWAXPR1 ;DSS/SGM - RPCs/APIs FOR PARAMETERS ;10/10/2012 15:46
+"RTN","DSIWAXPR1",2,0)
+ ;;1.5;VA CERTIFIED COMPONENTS - DSSI;;Jul 09, 2008;Build 9
+"RTN","DSIWAXPR1",3,0)
+ ;Copyright 1995-2012, Document Storage Systems, Inc., All Rights Reserved
+"RTN","DSIWAXPR1",4,0)
+ ;
+"RTN","DSIWAXPR1",5,0)
+ ;  Copyright 2012 Document Storage Systems, Inc. 
+"RTN","DSIWAXPR1",6,0)
+ ;
+"RTN","DSIWAXPR1",7,0)
+ ;  Licensed under the Apache License, Version 2.0 (the "License");
+"RTN","DSIWAXPR1",8,0)
+ ;  you may not use this file except in compliance with the License.
+"RTN","DSIWAXPR1",9,0)
+ ;  You may obtain a copy of the License at
+"RTN","DSIWAXPR1",10,0)
+ ;
+"RTN","DSIWAXPR1",11,0)
+ ;  http://www.apache.org/licenses/LICENSE-2.0
+"RTN","DSIWAXPR1",12,0)
+ ;
+"RTN","DSIWAXPR1",13,0)
+ ;  Unless required by applicable law or agreed to in writing, software
+"RTN","DSIWAXPR1",14,0)
+ ;  distributed under the License is distributed on an "AS IS" BASIS,
+"RTN","DSIWAXPR1",15,0)
+ ;  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+"RTN","DSIWAXPR1",16,0)
+ ;  See the License for the specific language governing permissions and
+"RTN","DSIWAXPR1",17,0)
+ ;  limitations under the License.
+"RTN","DSIWAXPR1",18,0)
+ ;
+"RTN","DSIWAXPR1",19,0)
+ ;
+"RTN","DSIWAXPR1",20,0)
+ ;this routine is not directly invokable
+"RTN","DSIWAXPR1",21,0)
+ ;see corresponding line labels in DSIWAXPR
+"RTN","DSIWAXPR1",22,0)
+ ;DSIWAXPR also documents the input parameters for each call 
+"RTN","DSIWAXPR1",23,0)
+ ;
+"RTN","DSIWAXPR1",24,0)
+ ; DBIA#  Supported - Description
+"RTN","DSIWAXPR1",25,0)
+ ; -----  --------------------------------------------------
+"RTN","DSIWAXPR1",26,0)
+ ;  2051  $$FIND1^DIC
+"RTN","DSIWAXPR1",27,0)
+ ;  2263  ^XPAR: DEL,NDEL,GET,GETLIST,GETWP
+"RTN","DSIWAXPR1",28,0)
+ ;  3127  FM read of all fields in file 8989.51 [control sub IA]
+"RTN","DSIWAXPR1",29,0)
+ ;
+"RTN","DSIWAXPR1",30,0)
+ Q
+"RTN","DSIWAXPR1",31,0)
+ ;
+"RTN","DSIWAXPR1",32,0)
+OUT ;  common exit - if '$D(RET) then expects DSIERR to be defined
+"RTN","DSIWAXPR1",33,0)
+ I $G(RET)]"" Q:$G(FUN) RET Q
+"RTN","DSIWAXPR1",34,0)
+ S DSIERR=$G(DSIERR,"Unexpected problem encountered")
+"RTN","DSIWAXPR1",35,0)
+ I DSIERR[U S DSIERR=$P(DSIERR,U,2)
+"RTN","DSIWAXPR1",36,0)
+ S RET=$S(DSIERR=0:1,1:"-1^"_DSIERR)
+"RTN","DSIWAXPR1",37,0)
+ Q:$G(FUN) RET Q
+"RTN","DSIWAXPR1",38,0)
+ ;
+"RTN","DSIWAXPR1",39,0)
+DEL ;  delete existing parameter/entity/instance
+"RTN","DSIWAXPR1",40,0)
+ ;  VALUE is not expected
+"RTN","DSIWAXPR1",41,0)
+ ;  DBIA #2263 - DEL^XPAR
+"RTN","DSIWAXPR1",42,0)
+ N X,Y,Z,ARR,DSIERR
+"RTN","DSIWAXPR1",43,0)
+ S X=$$PARSE(13) I X<0 S DSIERR=X G OUT
+"RTN","DSIWAXPR1",44,0)
+ I ARR(3)="" S DSIERR="-1^No Instance received"
+"RTN","DSIWAXPR1",45,0)
+ E  D DEL^XPAR(ARR(1),ARR(2),ARR(3),.DSIERR)
+"RTN","DSIWAXPR1",46,0)
+ G OUT
+"RTN","DSIWAXPR1",47,0)
+ ;
+"RTN","DSIWAXPR1",48,0)
+DELALL ;  delete all instances for entity/parameter
+"RTN","DSIWAXPR1",49,0)
+ ;  neither INSTANCE nor VALUE expected
+"RTN","DSIWAXPR1",50,0)
+ N X,Y,Z,ARR,DSIERR
+"RTN","DSIWAXPR1",51,0)
+ S X=$$PARSE(13) I X<0 S DSIERR=X
+"RTN","DSIWAXPR1",52,0)
+ E  D NDEL^XPAR(ARR(1),ARR(2),.DSIERR)
+"RTN","DSIWAXPR1",53,0)
+ G OUT
+"RTN","DSIWAXPR1",54,0)
+ ;
+"RTN","DSIWAXPR1",55,0)
+GET ;  return values for all instances of an entity/param
+"RTN","DSIWAXPR1",56,0)
+ ;  Expects only ENTITY, PARAMETER
+"RTN","DSIWAXPR1",57,0)
+ ;               FORMAT is optional - default to B
+"RTN","DSIWAXPR1",58,0)
+ ;               FORMAT input is ignored and always set to B
+"RTN","DSIWAXPR1",59,0)
+ ;  ARR(6) = Q - return list(#)=iI^iV
+"RTN","DSIWAXPR1",60,0)
+ ;           E - return list(#)=eI^eV
+"RTN","DSIWAXPR1",61,0)
+ ;           B - return list(#,"N")=iI^eI
+"RTN","DSIWAXPR1",62,0)
+ ;                      list(#,"V")=iV^eV
+"RTN","DSIWAXPR1",63,0)
+ ;           N - return list(#,"N")=iV^eI
+"RTN","DSIWAXPR1",64,0)
+ ;  Return RET(#) = iI^eI^iV^eV
+"RTN","DSIWAXPR1",65,0)
+ ;     some of those pieces may be <null> depends upon ARR(6)
+"RTN","DSIWAXPR1",66,0)
+ ;     On error, return RET(1)=-1^error message
+"RTN","DSIWAXPR1",67,0)
+ N I,P,X,Y,Z,ARR,DSIERR,DSILIST
+"RTN","DSIWAXPR1",68,0)
+ S X=$$PARSE(234) I X<1 S RET(1)=X Q
+"RTN","DSIWAXPR1",69,0)
+ D GETLST^XPAR(.DSILIST,ARR(1),ARR(2),ARR(6),.DSIERR)
+"RTN","DSIWAXPR1",70,0)
+ I $G(DSIERR)'=0 S RET(1)="-1^"_$P(DSIERR,U,2) Q
+"RTN","DSIWAXPR1",71,0)
+ I '$G(DSILIST) S RET(1)="-1^No data found" Q
+"RTN","DSIWAXPR1",72,0)
+ ;  following FOR loop intentional.  Kill off return array element
+"RTN","DSIWAXPR1",73,0)
+ ;  after it has been processed.  Help to avoid <alloc> errors
+"RTN","DSIWAXPR1",74,0)
+ K P S Z=0,Y=ARR(6) F  S I=$O(DSILIST(0)) Q:'I  S Z=Z+1 D
+"RTN","DSIWAXPR1",75,0)
+ .F X=1:1:4 S P(X)=""
+"RTN","DSIWAXPR1",76,0)
+ .I Y="Q" S P(1)=$P(DSILIST(I),U),P(3)=$P(DSILIST(I),U,2)
+"RTN","DSIWAXPR1",77,0)
+ .I Y="E" S P(2)=$P(DSILIST(I),U),P(4)=$P(DSILIST(I),U,2)
+"RTN","DSIWAXPR1",78,0)
+ .I Y="N" S P(3)=$P(DSILIST(I,"N"),U),P(2)=$P(DSILIST(I),U,2)
+"RTN","DSIWAXPR1",79,0)
+ .I Y'="B" S RET(Z)=P(1)_U_P(2)_U_P(3)_U_P(4)
+"RTN","DSIWAXPR1",80,0)
+ .E  S RET(Z)=DSILIST(I,"N")_U_DSILIST(I,"V")
+"RTN","DSIWAXPR1",81,0)
+ .K DSILIST(I)
+"RTN","DSIWAXPR1",82,0)
+ .Q
+"RTN","DSIWAXPR1",83,0)
+ Q
+"RTN","DSIWAXPR1",84,0)
+ ;
+"RTN","DSIWAXPR1",85,0)
+GET1 ;  return value of a single entity/param/instance combo
+"RTN","DSIWAXPR1",86,0)
+ ;  Format codes [ARR(6)] = [Q]uick    - return iV
+"RTN","DSIWAXPR1",87,0)
+ ;                          [E]xternal - return eV
+"RTN","DSIWAXPR1",88,0)
+ ;                          [B]oth     - return iV^eV
+"RTN","DSIWAXPR1",89,0)
+ N X,Y,Z,ARR,DSIERR
+"RTN","DSIWAXPR1",90,0)
+ S X=$$PARSE(34) I X<1 S DSIERR=X G OUT
+"RTN","DSIWAXPR1",91,0)
+ I "N"[ARR(6) S DSIERR="-1^Invalid format parameter received" G OUT
+"RTN","DSIWAXPR1",92,0)
+ I ARR(3)="" S X=$$GET^XPAR(ARR(1),ARR(2),,ARR(6))
+"RTN","DSIWAXPR1",93,0)
+ I ARR(3)'="" S X=$$GET^XPAR(ARR(1),ARR(2),ARR(3),ARR(6))
+"RTN","DSIWAXPR1",94,0)
+ I X="" S DSIERR="-1^No value found"
+"RTN","DSIWAXPR1",95,0)
+ E  S RET=X
+"RTN","DSIWAXPR1",96,0)
+ G OUT
+"RTN","DSIWAXPR1",97,0)
+ ;
+"RTN","DSIWAXPR1",98,0)
+GETWP ;  Retrieve a word-processing type parameter value
+"RTN","DSIWAXPR1",99,0)
+ N I,X,Y,Z,ARR,DSIERR,DSILST
+"RTN","DSIWAXPR1",100,0)
+ S X=$$PARSE(34) I X<1 S RET(1)=X Q
+"RTN","DSIWAXPR1",101,0)
+ S:ARR(3)="" ARR(3)=1
+"RTN","DSIWAXPR1",102,0)
+ D GETWP^XPAR(.DSILST,ARR(1),ARR(2),ARR(3),.DSIERR)
+"RTN","DSIWAXPR1",103,0)
+ I $G(DSIERR)>0 G OUT
+"RTN","DSIWAXPR1",104,0)
+ I '$D(DSILST) K DSIERR G OUT
+"RTN","DSIWAXPR1",105,0)
+ S X=0,Y=0,RET(1)=DSILST
+"RTN","DSIWAXPR1",106,0)
+ F  S X=$O(DSILST(X)) Q:X=""  S Y=Y+1,RET(Y)=DSILST(X,0)
+"RTN","DSIWAXPR1",107,0)
+ Q
+"RTN","DSIWAXPR1",108,0)
+ ;
+"RTN","DSIWAXPR1",109,0)
+ ;--------------------  subroutines  -----------------------
+"RTN","DSIWAXPR1",110,0)
+ ;
+"RTN","DSIWAXPR1",111,0)
+NM(P) ;  return the ien for a parameter definition P (#8989.51)
+"RTN","DSIWAXPR1",112,0)
+ N DIERR,DSIERR Q $$FIND1^DIC(8989.51,,"QX",$G(P),"B",,"DSIERR")
+"RTN","DSIWAXPR1",113,0)
+ ;
+"RTN","DSIWAXPR1",114,0)
+PARSE(FLG) ;  parse up DATA string and set up ARR() array
+"RTN","DSIWAXPR1",115,0)
+ ;  FLG - optional
+"RTN","DSIWAXPR1",116,0)
+ ;    If FLG[1 then explicit entity required - default to USR
+"RTN","DSIWAXPR1",117,0)
+ ;    If FLG[4 then explicit entity required - default to ALL
+"RTN","DSIWAXPR1",118,0)
+ ;    If FLG[2 then set GET format to B
+"RTN","DSIWAXPR1",119,0)
+ ;    If FLG[3 then value not needed
+"RTN","DSIWAXPR1",120,0)
+ ;  Return: PARAMETER DEFINITION ien
+"RTN","DSIWAXPR1",121,0)
+ ;     else return -1^error message
+"RTN","DSIWAXPR1",122,0)
+ ;
+"RTN","DSIWAXPR1",123,0)
+ ;  ARR(1) = entity     ARR(2) = param name    ARR(3) = instance
+"RTN","DSIWAXPR1",124,0)
+ ;  ARR(4) = value      ARR(5) = new instance value
+"RTN","DSIWAXPR1",125,0)
+ ;  ARR(6) = format for GET1
+"RTN","DSIWAXPR1",126,0)
+ ;
+"RTN","DSIWAXPR1",127,0)
+ N I,X,Y,Z,RTN K ARR S FLG=$G(FLG)
+"RTN","DSIWAXPR1",128,0)
+ F I=1:1:6 S ARR(I)=$P($G(DATA),"~",I)
+"RTN","DSIWAXPR1",129,0)
+ I FLG[1,ARR(1)="" S ARR(1)="USR"
+"RTN","DSIWAXPR1",130,0)
+ I FLG[4,ARR(1)="" S ARR(1)="ALL"
+"RTN","DSIWAXPR1",131,0)
+ I ARR(6)="" S ARR(6)=$S(FLG[2:"B",1:"Q")
+"RTN","DSIWAXPR1",132,0)
+ I FLG[2 S ARR(6)="B"
+"RTN","DSIWAXPR1",133,0)
+ I "QEBN"'[ARR(6)!(ARR(6)'?1U) S ARR(6)=""
+"RTN","DSIWAXPR1",134,0)
+ I ARR(2)="" Q "-1^No parameter name received"
+"RTN","DSIWAXPR1",135,0)
+ S RTN=$$NM(ARR(2))
+"RTN","DSIWAXPR1",136,0)
+ I 'RTN S RTN="-1^Parameter Definition "_ARR(2)_" not found"
+"RTN","DSIWAXPR1",137,0)
+ I RTN>0,FLG'[3,ARR(4)="" S RTN="-1^No value received"
+"RTN","DSIWAXPR1",138,0)
+ Q RTN
+"RTN","DSIWAXPR2")
+0^4^B2110912
+"RTN","DSIWAXPR2",1,0)
+DSIWAXPR2 ;DSS/SGM - NON-GUI INTERACTIVE PARAMETER EDIT ;10/10/2012 07:59
+"RTN","DSIWAXPR2",2,0)
+ ;;1.5;VA CERTIFIED COMPONENTS - DSSI;;Jul 09, 2008;Build 9
+"RTN","DSIWAXPR2",3,0)
+ ;Copyright 1995-2012, Document Storage Systems, Inc., All Rights Reserved
+"RTN","DSIWAXPR2",4,0)
+ ;
+"RTN","DSIWAXPR2",5,0)
+ ;  Copyright 2012 Document Storage Systems, Inc. 
+"RTN","DSIWAXPR2",6,0)
+ ;
+"RTN","DSIWAXPR2",7,0)
+ ;  Licensed under the Apache License, Version 2.0 (the "License");
+"RTN","DSIWAXPR2",8,0)
+ ;  you may not use this file except in compliance with the License.
+"RTN","DSIWAXPR2",9,0)
+ ;  You may obtain a copy of the License at
+"RTN","DSIWAXPR2",10,0)
+ ;
+"RTN","DSIWAXPR2",11,0)
+ ;  http://www.apache.org/licenses/LICENSE-2.0
+"RTN","DSIWAXPR2",12,0)
+ ;
+"RTN","DSIWAXPR2",13,0)
+ ;  Unless required by applicable law or agreed to in writing, software
+"RTN","DSIWAXPR2",14,0)
+ ;  distributed under the License is distributed on an "AS IS" BASIS,
+"RTN","DSIWAXPR2",15,0)
+ ;  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+"RTN","DSIWAXPR2",16,0)
+ ;  See the License for the specific language governing permissions and
+"RTN","DSIWAXPR2",17,0)
+ ;  limitations under the License.
+"RTN","DSIWAXPR2",18,0)
+ ;
+"RTN","DSIWAXPR2",19,0)
+ ;
+"RTN","DSIWAXPR2",20,0)
+ ;This is only called from DSIWAXPR routine
+"RTN","DSIWAXPR2",21,0)
+ ;This routine encapsulates the Parameter terminal interactive tools for
+"RTN","DSIWAXPR2",22,0)
+ ;editing Kernel Parameters.
+"RTN","DSIWAXPR2",23,0)
+ ;
+"RTN","DSIWAXPR2",24,0)
+ ;DBIA#  Supported Reference
+"RTN","DSIWAXPR2",25,0)
+ ;-----  ---------------------------------------------------------------
+"RTN","DSIWAXPR2",26,0)
+ ;       ADD^XPAR
+"RTN","DSIWAXPR2",27,0)
+ ;       INTERN^XPAR1
+"RTN","DSIWAXPR2",28,0)
+ ; 3127  FM read access to all of file 8989.51 [controlled subscription]
+"RTN","DSIWAXPR2",29,0)
+ ;
+"RTN","DSIWAXPR2",30,0)
+ADDWP ;  add a new entity/parameter/instance
+"RTN","DSIWAXPR2",31,0)
+ ; for a word-processing type parameter
+"RTN","DSIWAXPR2",32,0)
+ ; INSTANCE is optional
+"RTN","DSIWAXPR2",33,0)
+ N I,X,Y,Z,ARR,DSIERR
+"RTN","DSIWAXPR2",34,0)
+ N ENT,PAR,ERR,INST,WPA
+"RTN","DSIWAXPR2",35,0)
+ S (ERR,DSIERR,RET)=""
+"RTN","DSIWAXPR2",36,0)
+ I DATA']"" S RET="-1^No Data String defined" Q
+"RTN","DSIWAXPR2",37,0)
+ S ENT=$S($P(DATA,"~",1)'="":$P(DATA,"~",1),1:"SYS")
+"RTN","DSIWAXPR2",38,0)
+ S PAR=$P(DATA,"~",2) I PAR="" S RET="-1^No parameter defined in Data string" Q
+"RTN","DSIWAXPR2",39,0)
+ S INST=$P(DATA,"~",3),INST=$G(INST,1)
+"RTN","DSIWAXPR2",40,0)
+ D INTERN^XPAR1 I ERR S RET="-1^Parameter not defined" Q
+"RTN","DSIWAXPR2",41,0)
+ D ADD^XPAR(ENT,PAR,INST,.DSIWALT,.WPA) I +WPA S RET="-1^"_$P(WPA,U,2) Q
+"RTN","DSIWAXPR2",42,0)
+ S RET="1^Parameter added successfully"
+"RTN","DSIWAXPR2",43,0)
+ Q
+"RTN","DSIWAXPR2",44,0)
+ ;
+"VER")
+8.0^22.0
+**END**
+**END**

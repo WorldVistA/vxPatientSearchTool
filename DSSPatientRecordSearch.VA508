@@ -1,0 +1,936 @@
+D:\work\d2006\PatientRecordSearch\fSearchCriteria.dfm
+225686/1095389640
+0
+10
+D:\work\d2006\DSSPatientRecordSearch\v0_80_0_0\fSearchCriteria.dfm
+49085/1064326020
+10
+2
+D:\work\d2006\PatientRecordSearch81\fSearchCriteria.dfm
+48986/1064395177
+12
+2
+D:\work\d2006\PatientRecordSearch82\fSearchCriteria.dfm
+48821/1064401588
+14
+2
+D:\work\d2006\PatientRecordSearch\UStandardSearchInProgress.dfm
+2038/1064466029
+16
+2
+D:\work\d2006\PatientRecordSearch\UDssAbout.dfm
+2292/1065705280
+18
+2
+D:\work\d2006\PatientRecordSearch\fSearchInProgress.dfm
+2038/1064660765
+20
+2
+D:\work\d2006\PatientRecordSearch\fSearchTerms.dfm
+25353/1095008653
+22
+2
+D:\work\d2006\PatientRecordSearch\fBase508Form.dfm
+563/1014974203
+24
+8
+D:\work\d2006\PatientRecordSearch\fxBroker.dfm
+4650/1066223003
+32
+32
+D:\work\d2006\PatientRecordSearch\fSearchCriteria.pas
+241399/1095389709
+64
+66
+D:\work\d2006\PatientRecordSearch\fSearchTerms.pas
+9969/1095008678
+130
+25
+D:\work\d2006\PatientRecordSearch\fBase508Form.pas
+8112/1014974203
+155
+14
+D:\work\d2006\PatientRecordSearch\fxBroker.pas
+3305/1014974205
+169
+11
+D:\work\d2006\PatientRecordSearch\fBrokerCallHistory.dfm
+2383/1066238977
+180
+2
+D:\work\d2006\PatientRecordSearch\fBrokerCallHistory2.dfm
+2431/995839224
+182
+2
+D:\work\d2006\PatientRecordSearch\fBrokerCallHistory.pas
+5161/1066238983
+184
+35
+D:\work\d2006\PatientRecordSearch\fQuickSearch.dfm
+21041/1095008650
+219
+2
+D:\work\d2006\PatientRecordSearch\fQuickSearch.pas
+9267/1095008695
+221
+25
+D:\work\d2006\PatientRecordSearch\fSavedSearches.dfm
+19062/1095387617
+246
+2
+D:\work\d2006\PatientRecordSearch\fSavedSearches.pas
+10614/1095389294
+248
+24
+D:\work\d2006\PatientRecordSearch\fReportSelect.dfm
+16685/1095387617
+272
+2
+D:\work\d2006\PatientRecordSearch\fReportSelect.pas
+28081/1095389264
+274
+26
+D:\work\d2006\PatientRecordSearch\fPage.dfm
+568/1014974204
+300
+8
+D:\work\d2006\PatientRecordSearch\fReports.dfm
+16129/1079201081
+308
+83
+D:\work\d2006\PatientRecordSearch\fHSplit.dfm
+923/1014974204
+391
+14
+D:\work\d2006\PatientRecordSearch\fPage.pas
+4509/1014974204
+405
+12
+D:\work\d2006\PatientRecordSearch\fReports.pas
+133448/1079202571
+417
+12
+D:\work\d2006\PatientRecordSearch\fHSplit.pas
+401/1014974204
+429
+10
+D:\work\d2006\CPRSSearchToolProject\dShared.dfm
+365051/1014974202
+439
+2
+D:\work\d2006\CPRSSearchToolProject\dShared.pas
+26053/1014974202
+441
+10
+D:\work\d2006\PatientRecordSearch\fLabs.dfm
+28973/1032279628
+451
+142
+D:\work\d2006\PatientRecordSearch\fLabs.pas
+197598/1032279628
+593
+23
+D:\work\d2006\PatientRecordSearch\fGraphs.dfm
+37069/1028933352
+616
+156
+D:\work\d2006\PatientRecordSearch\fGraphs.pas
+233867/1028933352
+772
+17
+D:\work\d2006\PatientRecordSearch\fLoadingProgress.dfm
+8239/1083070116
+789
+2
+|EOINDEX|
+4664
+object frmSearchCriteria: TfrmSearchCriteria
+object VA508AccessibilityManager1: TVA508AccessibilityManager
+Left = 568
+Top = 8
+Data = (
+(
+'Component = frmSearchCriteria'
+'Status = stsDefault'))
+end
+1610
+object frmSearchCriteria: TfrmSearchCriteria
+1606
+object frmSearchCriteria: TfrmSearchCriteria
+1599
+object frmSearchCriteria: TfrmSearchCriteria
+66
+object frmSearchInProgress: TfrmSearchInProgress
+1
+ÿ
+66
+object frmSearchInProgress: TfrmSearchInProgress
+619
+object frmSearchTerms: TfrmSearchTerms
+24
+object frmBase508Form: TfrmBase508Form
+object amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmBase508Form'
+'Status = stsDefault'))
+end
+165
+inherited frmBroker: TfrmBroker
+inherited amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = pnlTop'
+'Status = stsDefault')
+(
+'Component = lblCallID'
+'Status = stsDefault')
+(
+'Component = txtMaxCalls'
+'Status = stsDefault')
+(
+'Component = cmdPrev'
+'Status = stsDefault')
+(
+'Component = cmdNext'
+'Status = stsDefault')
+(
+'Component = udMax'
+'Status = stsDefault')
+(
+'Component = btnRLT'
+'Status = stsDefault')
+(
+'Component = memData'
+'Status = stsDefault')
+(
+'Component = frmBroker'
+'Status = stsDefault'))
+end
+unit fSearchCriteria;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Trpcb, Buttons, ORFN, ORNet, StdCtrls, ORDtTm, Mask, JvExMask,
+  JvSpin, ExtCtrls, ComCtrls, Menus, ORDtTmRng{, AdvDropDown,
+  AdvImagePickerDropDown, DBAdvImagePickerDropDown},
+  VirtualTrees, vxrpcBroker, vxDSSRPC, AdvPanel, AdvCircularProgress,
+  AdvGlassButton, AdvGlowButton, AdvGroupBox, AdvOfficeButtons, EllipsLabel,
+  DBAdvOfficeButtons, AdvProgr, AdvCombo, WinXP, VA508AccessibilityManager{, vxrpcBroker, vxDSSRPC};
+
+type
+  //Use this single tree-data record type for all searches.
+  // For each search type, add the needed field(s) at design-time.
+  // Fields that are not referenced by a particular search are ignored.
+  // This way, we can avoid having a different record structure for each search area (TIU, Problem Text, Consults...etc)
+  PTreeData = ^TTreeData;
+  TTreeData = record
+    FCaption: string; //Apply's to all search areas
+
+    //TIU Notes
+    FTIUDocNum: string;
+    FProblemIFN: string; //Piece 1   //ORQQPL PROBLEM LIST:  ifn^status^description^ICD^onset^last modified^SC^SpExp^Condition^Loc^loc.type^prov^service
+    FActiveStatus: string;
+
+    //Problem Text
+    FProblemDescription: string;
+    FProvider: string;
+    FLocation: string;
+
+    //Consults
+    FConsultID: string;
+    FDateTimeOfConsultRequest: string;
+    FConsultStatus: string;
+    FConsultingService: string;
+    FConsultProcedure: string;
+
+    //Orders
+    FOrderID: string;
+
+    //Reports
+    FReportName: string;
+    FReportID: string;
+    FReportIDString: string;
+    FProcID: string;
+  end;
+
+  TUpdateContext = function(NewContext: string): boolean;  
+
+  TfrmSearchCriteria = class(TForm)
+unit fSearchTerms;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, ORDtTm, AdvOfficeButtons, AdvGroupBox,
+  AdvGlassButton, ComCtrls;
+
+type
+  TfrmSearchTerms = class(TForm)
+unit fBase508Form;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, VA508AccessibilityManager, OR2006Compatibility, uConst;
+
+type
+  TAccessibilityAction = (aaColorConversion, aaTitleBarHeightAdjustment,
+                          aaFixTabStopArrowNavigationBug);
+  TAccessibilityActions = set of TAccessibilityAction;
+
+  TfrmBase508Form = class(Tfrm2006Compatibility)
+unit fxBroker;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, DateUtils, ORNet, ORFn, rMisc, ComCtrls, Buttons, ExtCtrls,
+  ORCtrls, ORSystem, fBase508Form, VA508AccessibilityManager;
+
+type
+  TfrmBroker = class(TfrmBase508Form)
+111
+object frmBrokerCallHistory: TfrmBrokerCallHistory
+113
+object frmBrokerCallHistory: TfrmBrokerCallHistory
+{
+Copyright © DSS, Inc.
+All Rights Reserved.
+
+PURPOSE:  This form will reveal the the 1000 line "recent database traffic" log stored by the TDSSRPCBroker.
+ AUTHOR:  Brian Smith
+  DATES:  MM/DD/YY BS 1.0 1st version.
+
+  NOTES:  Since it has been designed to be shown non-modally (using the "Stay on Top"
+          checkbox, the user can watch database traffic as they use the program), it
+          should not be created, shown and freed (though you *can* do that if you want).
+          it should instead by in the autocreate list. Please see any of my projects for
+          this has been implemented.
+
+          It's simply to use: here's the code under the "show broker history" menu command in ROI
+
+          if frmBrokerCallHistory = nil then
+            frmBrokerCallHistory := TfrmBrokerCallHistory.Create(application);
+
+          frmBrokerCallHistory.ShowHistoryOfABroker(Broker);
+          frmBrokerCallHistory.show;
+
+          If it hasn't already been created, we create it. Then we pass in the
+          broker whose history we want to see, and then we .Show the form.
+}
+unit fBrokerCallHistory;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, dssrpc, ExtCtrls, Trpcb;
+
+type
+  TfrmBrokerCallHistory = class(TForm)
+459
+object frmQuickSearch: TfrmQuickSearch
+unit fQuickSearch;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, AdvGlassButton, AdvOfficeButtons, StdCtrls, AdvGroupBox, ORDtTm,
+  ExtCtrls, ComCtrls;
+
+type
+  TfrmQuickSearch = class(TForm)
+394
+object frmSavedSearches: TfrmSavedSearches
+unit fSavedSearches;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, AdvGlassButton, ExtCtrls, Trpcb, ORNet, ORFn;
+
+type
+  TfrmSavedSearches = class(TForm)
+488
+object frmReportSelect: TfrmReportSelect
+unit fReportSelect;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, AdvGlassButton, ExtCtrls, Trpcb, ORNet, ORFn, AdvPanel,
+  ComCtrls, ORCtrls, Menus, OleCtrls, SHDocVw,
+  {kw}uCore, rCore, StrUtils{kw};
+
+type
+  TfrmReportSelect = class(TForm)
+27
+inherited frmPage: TfrmPage
+inherited amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmPage'
+'Status = stsDefault'))
+end
+633
+inherited frmReports: TfrmReports
+inherited amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = pnlLefTop'
+'Status = stsDefault')
+(
+'Component = tvReports'
+'Status = stsDefault')
+(
+'Component = pnlLeftBottom'
+'Status = stsDefault')
+(
+'Component = lstHeaders'
+'Status = stsDefault')
+(
+'Component = lstQualifier'
+'Status = stsDefault')
+(
+'Component = pnlViews'
+'Status = stsDefault')
+(
+'Component = pnlTopViews'
+'Status = stsDefault')
+(
+'Component = chkDualViews'
+'Status = stsDefault')
+(
+'Component = btnGraphSelections'
+'Status = stsDefault')
+(
+'Component = btnChangeView'
+'Status = stsDefault')
+(
+'Component = lstDateRange'
+'Status = stsDefault')
+(
+'Component = pnlProcedures'
+'Status = stsDefault')
+(
+'Component = tvProcedures'
+'Status = stsDefault')
+(
+'Component = pnlRightTop'
+'Status = stsDefault')
+(
+'Component = TabControl1'
+'Status = stsDefault')
+(
+'Component = pnlRightBottom'
+'Status = stsDefault')
+(
+'Component = WebBrowser1'
+'Status = stsDefault')
+(
+'Component = Memo1'
+'Status = stsDefault')
+(
+'Component = memText'
+'Status = stsDefault')
+(
+'Component = pnlRightMiddle'
+'Status = stsDefault')
+(
+'Component = lvReports'
+'Status = stsDefault')
+(
+'Component = pnlLeft'
+'Status = stsDefault')
+(
+'Component = pnlRight'
+'Status = stsDefault')
+(
+'Component = frmReports'
+'Status = stsDefault')
+(
+'Component = pnlTopRtLabel'
+'Status = stsDefault')
+(
+'Component = chkMaxFreq'
+'Status = stsDefault'))
+end
+45
+inherited frmHSplit: TfrmHSplit
+inherited amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = pnlLeft'
+'Status = stsDefault')
+(
+'Component = pnlRight'
+'Status = stsDefault')
+(
+'Component = frmHSplit'
+'Status = stsDefault'))
+end
+unit fPage;
+
+{$OPTIMIZATION OFF}                              // REMOVE AFTER UNIT IS DEBUGGED
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs, ExtCtrls, uConst,
+  rOrders, fBase508Form, VA508AccessibilityManager;
+
+type
+  TfrmPage = class(TfrmBase508Form)
+unit fReports;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  fHSplit, StdCtrls, ExtCtrls, ORCtrls, ComCtrls, Menus, uConst, ORDtTmRng,
+  OleCtrls, SHDocVw, Buttons, ClipBrd, rECS, Variants, StrUtils, fBase508Form,
+  VA508AccessibilityManager, VA508ImageListLabeler;
+
+type
+  TfrmReports = class(TfrmHSplit)
+unit fHSplit;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  fPage, ExtCtrls, VA508AccessibilityManager;
+
+type
+  TfrmHSplit = class(TfrmPage)
+5485
+object dmodShared: TdmodShared
+unit dShared;
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  ComCtrls, ImgList, uTemplates, ORFn, ORNet, ExtCtrls, ORCtrls, Richedit,
+  VA508ImageListLabeler;
+
+type
+  TdmodShared = class(TDataModule)
+1108
+inherited frmLabs: TfrmLabs
+inherited amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = pnlLeft'
+'Status = stsDefault')
+(
+'Component = pnlRight'
+'Status = stsDefault')
+(
+'Component = frmLabs'
+'Status = stsDefault')
+(
+'Component = pnlRightBottom'
+'Status = stsDefault')
+(
+'Component = Memo1'
+'Status = stsDefault')
+(
+'Component = memLab'
+'Status = stsDefault')
+(
+'Component = pnlRightTop'
+'Status = stsDefault')
+(
+'Component = pnlHeader'
+'Status = stsDefault')
+(
+'Component = pnlWorksheet'
+'Status = stsDefault')
+(
+'Component = chkValues'
+'Status = stsDefault')
+(
+'Component = chk3D'
+'Status = stsDefault')
+(
+'Component = ragHorV'
+'Status = stsDefault')
+(
+'Component = chkAbnormals'
+'Status = stsDefault')
+(
+'Component = ragCorG'
+'Status = stsDefault')
+(
+'Component = chkZoom'
+'Status = stsDefault')
+(
+'Component = pnlGraph'
+'Status = stsDefault')
+(
+'Component = chkGraph3D'
+'Status = stsDefault')
+(
+'Component = chkGraphValues'
+'Status = stsDefault')
+(
+'Component = chkGraphZoom'
+'Status = stsDefault')
+(
+'Component = pnlButtons'
+'Status = stsDefault')
+(
+'Component = lblDate'
+'Text = Date Collected'
+'Status = stsOK')
+(
+'Component = cmdNext'
+'Text = Next'
+'Status = stsOK')
+(
+'Component = cmdPrev'
+'Text = Previous'
+'Status = stsOK')
+(
+'Component = cmdRecent'
+'Text = Newest'
+'Status = stsOK')
+(
+'Component = cmdOld'
+'Text = Oldest'
+'Status = stsOK')
+(
+'Component = grdLab'
+'Status = stsDefault')
+(
+'Component = pnlChart'
+'Status = stsDefault')
+(
+'Component = lstTestGraph'
+'Status = stsDefault')
+(
+'Component = chtChart'
+'Status = stsDefault')
+(
+'Component = pnlRightTopHeader'
+'Status = stsDefault')
+(
+'Component = pnlFooter'
+'Status = stsDefault')
+(
+'Component = lstTests'
+'Status = stsDefault')
+(
+'Component = lvReports'
+'Status = stsDefault')
+(
+'Component = pnlLefTop'
+'Status = stsDefault')
+(
+'Component = tvReports'
+'Status = stsDefault')
+(
+'Component = pnlLeftBottom'
+'Status = stsDefault')
+(
+'Component = lstQualifier'
+'Status = stsDefault')
+(
+'Component = lstHeaders'
+'Status = stsDefault')
+(
+'Component = lstDates'
+'Status = stsDefault')
+(
+'Component = pnlOtherTests'
+'Status = stsDefault')
+(
+'Component = cmdOtherTests'
+'Status = stsDefault')
+(
+'Component = pnlRightTopHeaderTop'
+'Status = stsDefault')
+(
+'Component = chkMaxFreq'
+'Status = stsDefault')
+(
+'Component = TabControl1'
+'Status = stsDefault'))
+end
+unit fLabs;
+
+interface                                     
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  fHSplit, StdCtrls, ExtCtrls, ORCtrls, ComCtrls, Grids, Buttons, fLabTest,
+  fLabTests, fLabTestGroups, ORFn, TeeProcs, TeEngine, Chart, Series, Menus,
+  uConst, ORDtTmRng, OleCtrls, SHDocVw, Variants, StrUtils, fBase508Form,
+  VA508AccessibilityManager;
+
+type
+  TGrdLab508Manager = class(TVA508ComponentManager)
+  private
+    function GetTextToSpeak(sg: TCaptionStringGrid): String;
+    function ToBlankIfEmpty(aString : String) : String;
+  public
+    constructor Create; override;
+    function GetValue(Component: TWinControl): string; override;
+    function GetItem(Component: TWinControl): TObject; override;
+  end;
+
+  TfrmLabs = class(TfrmHSplit)
+1294
+inherited frmGraphs: TfrmGraphs
+inherited amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = pnlHeader'
+'Status = stsDefault')
+(
+'Component = pnlTemp'
+'Status = stsDefault')
+(
+'Component = pnlInfo'
+'Status = stsDefault')
+(
+'Component = chartBase'
+'Status = stsDefault')
+(
+'Component = pnlFooter'
+'Status = stsDefault')
+(
+'Component = btnClose'
+'Status = stsDefault')
+(
+'Component = btnChangeSettings'
+'Status = stsDefault')
+(
+'Component = cboDateRange'
+'Label = lblDateRange'
+'Status = stsOK')
+(
+'Component = chkDualViews'
+'Status = stsDefault')
+(
+'Component = btnGraphSelections'
+'Status = stsDefault')
+(
+'Component = pnlMain'
+'Status = stsDefault')
+(
+'Component = pnlTop'
+'Status = stsDefault')
+(
+'Component = pnlItemsTop'
+'Status = stsDefault')
+(
+'Component = pnlItemsTopInfo'
+'Status = stsDefault')
+(
+'Component = chkItemsTop'
+'Status = stsDefault')
+(
+'Component = pnlTopRightPad'
+'Status = stsDefault')
+(
+'Component = pnlScrollTopBase'
+'Status = stsDefault')
+(
+'Component = pnlBlankTop'
+'Status = stsDefault')
+(
+'Component = scrlTop'
+'Status = stsDefault')
+(
+'Component = pnlDatelineTop'
+'Status = stsDefault')
+(
+'Component = chartDatelineTop'
+'Status = stsDefault')
+(
+'Component = pnlDatelineTopSpacer'
+'Status = stsDefault')
+(
+'Component = memTop'
+'Status = stsDefault')
+(
+'Component = pnlBottom'
+'Status = stsDefault')
+(
+'Component = pnlItemsBottom'
+'Status = stsDefault')
+(
+'Component = pnlItemsBottomInfo'
+'Status = stsDefault')
+(
+'Component = chkItemsBottom'
+'Status = stsDefault')
+(
+'Component = pnlBottomRightPad'
+'Status = stsDefault')
+(
+'Component = pnlScrollBottomBase'
+'Status = stsDefault')
+(
+'Component = pnlBlankBottom'
+'Status = stsDefault')
+(
+'Component = pnlDatelineBottom'
+'Status = stsDefault')
+(
+'Component = chartDatelineBottom'
+'Status = stsDefault')
+(
+'Component = pnlDatelineBottomSpacer'
+'Status = stsDefault')
+(
+'Component = scrlBottom'
+'Status = stsDefault')
+(
+'Component = memBottom'
+'Status = stsDefault')
+(
+'Component = frmGraphs'
+'Status = stsDefault')
+(
+'Component = pcTop'
+'Status = stsDefault')
+(
+'Component = tsTopItems'
+'Status = stsDefault')
+(
+'Component = tsTopViews'
+'Status = stsDefault')
+(
+'Component = tsTopCustom'
+'Status = stsDefault')
+(
+'Component = lvwItemsTop'
+'Status = stsDefault')
+(
+'Component = pcBottom'
+'Status = stsDefault')
+(
+'Component = tsBottomItems'
+'Status = stsDefault')
+(
+'Component = tsBottomViews'
+'Status = stsDefault')
+(
+'Component = tsBottomCustom'
+'Status = stsDefault')
+(
+'Component = lvwItemsBottom'
+'Status = stsDefault')
+(
+'Component = lstViewsTop'
+'Status = stsDefault')
+(
+'Component = lstViewsBottom'
+'Status = stsDefault')
+(
+'Component = memViewsTop'
+'Status = stsDefault')
+(
+'Component = memViewsBottom'
+'Status = stsDefault'))
+end
+unit fGraphs;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  ExtCtrls, StdCtrls, ORCtrls, Menus, TeeProcs, TeEngine, Series, Chart, Math,
+  ComCtrls, GanttCh, ClipBrd, StrUtils, ORFn, ORDtTmRng, DateUtils, Printers,
+  OleServer, Variants, Word2000, ArrowCha, ORDtTm, uGraphs, fBase508Form
+  {$IFDEF VER140}
+  ,Word97;
+  {$ELSE}
+  ,WordXP, VA508AccessibilityManager;
+  {$ENDIF}
+
+type
+  TfrmGraphs = class(TfrmBase508Form)
+154
+object frmLoadingProgress: TfrmLoadingProgress

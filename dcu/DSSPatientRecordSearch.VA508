@@ -1,0 +1,332 @@
+D:\work\d2006\PatientRecordSearch\fSearchCriteria.dfm
+223685/1143686372
+0
+43
+D:\work\d2006\PatientRecordSearch\fSearchTerms.dfm
+25125/1114591100
+43
+2
+D:\work\d2006\PatientRecordSearch\fQuickSearch.dfm
+20261/1114591250
+45
+2
+D:\work\d2006\PatientRecordSearch\fSavedSearches.dfm
+18042/1114591245
+47
+2
+D:\work\d2006\PatientRecordSearch\fReportSelect.dfm
+23896/1114591236
+49
+2
+D:\work\d2006\PatientRecordSearch\fSearchCriteria.pas
+256090/1143686945
+51
+68
+D:\work\d2006\PatientRecordSearch\fSearchTerms.pas
+14782/1114590703
+119
+25
+D:\work\d2006\PatientRecordSearch\fQuickSearch.pas
+9436/1114590729
+144
+25
+D:\work\d2006\PatientRecordSearch\fSavedSearches.pas
+16755/1114590706
+169
+25
+D:\work\d2006\PatientRecordSearch\fReportSelect.pas
+34480/1114590589
+194
+26
+D:\work\d2006\PatientRecordSearch\fxBroker.dfm
+4650/1066225051
+220
+32
+D:\work\d2006\PatientRecordSearch\fBrokerCallHistory.dfm
+2431/1114595528
+252
+2
+D:\work\d2006\PatientRecordSearch\fxBroker.pas
+3305/1014976253
+254
+11
+D:\work\d2006\PatientRecordSearch\fBrokerCallHistory.pas
+4022/1114595622
+265
+10
+|EOINDEX|
+4579
+object frmSearchCriteria: TfrmSearchCriteria
+object VA508AccessibilityManager1: TVA508AccessibilityManager
+Left = 568
+Top = 8
+Data = (
+(
+'Component = frmSearchCriteria'
+'Status = stsDefault')
+(
+'Component = rgTIUNoteOptionsStd'
+'Status = stsDefault')
+(
+'Component = rgSortByStd'
+'Status = stsDefault')
+(
+'Component = rgSortByAdv'
+'Status = stsDefault')
+(
+'Component = cbIncludeAddendaStd'
+'Status = stsDefault')
+(
+'Component = cbOrderStatusStd'
+'Status = stsDefault')
+(
+'Component = anCircularProgress'
+'Status = stsDefault')
+(
+'Component = rgTIUNoteOptionsAdv'
+'Status = stsDefault')
+(
+'Component = cbIncludeUntranscribedAdv'
+'Status = stsDefault')
+(
+'Component = cbIncludeAddendaAdv'
+'Status = stsDefault')
+(
+'Component = cbOrderStatusAdv'
+'Status = stsDefault')
+(
+'Component = pbReportLoading'
+'Status = stsDefault'))
+end
+606
+object frmSearchTerms: TfrmSearchTerms
+426
+object frmQuickSearch: TfrmQuickSearch
+345
+object frmSavedSearches: TfrmSavedSearches
+582
+object frmReportSelect: TfrmReportSelect
+unit fSearchCriteria;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Trpcb, Buttons, ORFN, ORNet, StdCtrls, ORDtTm,
+  ExtCtrls, ComCtrls, Menus, VirtualTrees,
+  {DBAdvOfficeButtons,} AdvProgr, AdvCombo, VA508AccessibilityManager,
+  EllipsLabel, Mask, JvExMask, JvSpin, ORDtTmRng,
+  JvExExtCtrls,   JvRadioGroup, JvExControls, JvButton, JvTransparentButton, JvProgressBar,
+  JvSpecialProgress, JvExStdCtrls, JvCheckBox, JvCombobox;
+
+type
+  //Use this single tree-data record type for all searches.
+  // For each search type, add the needed field(s) at design-time.
+  // Fields that are not referenced by a particular search are ignored.
+  // This way, we can avoid having a different record structure for each search area (TIU, Problem Text, Consults, Orders, Reports)
+  PTreeData = ^TTreeData;
+  TTreeData = record
+    FCaption: string; //Apply's to all search areas
+
+    //TIU Notes
+    FTIUDocNum: string;
+    FProblemIFN: string; //Piece 1   //ORQQPL PROBLEM LIST:  ifn^status^description^ICD^onset^last modified^SC^SpExp^Condition^Loc^loc.type^prov^service
+    FActiveStatus: string;
+
+    //Problem Text
+    FProblemDescription: string;
+    FProvider: string;
+    FLocation: string;
+
+    //Consults
+    FConsultID: string;
+    FDateTimeOfConsultRequest: string;
+    FConsultStatus: string;
+    FConsultingService: string;
+    FConsultProcedure: string;
+
+    //Orders
+    FOrderID: string;
+
+    //Reports
+    FReportName: string;
+    FReportID: string;
+    FReportIDString: string;
+    FProcID: string;
+  end;
+
+  //Used in getting a pointer to CPRS's UpdateContext() function
+  //Also see .dpr file, function SearchExecute()
+  TUpdateContext = function(NewContext: string): boolean;
+
+  TfrmSearchCriteria = class(TForm)
+unit fSearchTerms;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, ORDtTm, ComCtrls, JvExStdCtrls, JvCheckBox, JvExControls,
+  JvButton, JvTransparentButton, JvExExtCtrls, JvBevel;
+
+type
+  TfrmSearchTerms = class(TForm)
+unit fQuickSearch;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ORDtTm, ExtCtrls, ComCtrls,
+  JvExControls, JvButton, JvTransparentButton;
+
+type
+  TfrmQuickSearch = class(TForm)
+unit fSavedSearches;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, Trpcb, ORNet, ORFn,
+  JvExControls, JvButton, JvTransparentButton;
+
+type
+  TfrmSavedSearches = class(TForm)
+unit fReportSelect;
+{
+Copyright 2012 Document Storage Systems, Inc. 
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+}
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, Trpcb, ORNet, ORFn,
+  ComCtrls, ORCtrls, Menus, OleCtrls, SHDocVw,
+  {kw}uCore, rCore, StrUtils, JvExControls, JvButton, JvTransparentButton{kw};
+
+type
+  TfrmReportSelect = class(TForm)
+165
+inherited frmBroker: TfrmBroker
+inherited amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = pnlTop'
+'Status = stsDefault')
+(
+'Component = lblCallID'
+'Status = stsDefault')
+(
+'Component = txtMaxCalls'
+'Status = stsDefault')
+(
+'Component = cmdPrev'
+'Status = stsDefault')
+(
+'Component = cmdNext'
+'Status = stsDefault')
+(
+'Component = udMax'
+'Status = stsDefault')
+(
+'Component = btnRLT'
+'Status = stsDefault')
+(
+'Component = memData'
+'Status = stsDefault')
+(
+'Component = frmBroker'
+'Status = stsDefault'))
+end
+113
+object frmBrokerCallHistory: TfrmBrokerCallHistory
+unit fxBroker;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, DateUtils, ORNet, ORFn, rMisc, ComCtrls, Buttons, ExtCtrls,
+  ORCtrls, ORSystem, fBase508Form, VA508AccessibilityManager;
+
+type
+  TfrmBroker = class(TfrmBase508Form)
+unit fBrokerCallHistory;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, dssrpc, ExtCtrls;
+
+type
+  TfrmBrokerCallHistory = class(TForm)

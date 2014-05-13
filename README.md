@@ -1,4 +1,4 @@
 vxPatientSearchTool
-===================
+================
 
-The source of the vxPatientSearchTool DLL released to OSEHRA by DSS Inc.
+The source of vxPatientSearch tool released to OSEHRA by DSS Inc.
